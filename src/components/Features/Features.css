@@ -1,0 +1,44 @@
+.featureContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.feature:hover{
+    /* background-color: #8467f7; */
+    
+    transform: scale(1.15);
+    /* transition: background-color .5s; */
+}
+
+#FeaturesHeading{
+    color:#4B4F60;
+    font-size:20px;
+    font-family:Gilroy-Bold;
+}
+
+.img1{
+    width: max-content;
+    border-radius: 22px;
+    background: linear-gradient(to bottom right, #6d38ea 25%, #051177 100%)
+}
+.img2{
+    width: max-content;
+    /* padding:"20px"; */
+    border-radius: 18px;
+    background: linear-gradient(to bottom right, #1dc473 25%, #28c41d 60%);
+  
+}
+.img3{
+    width: 100px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #e83cae 25%, #d840ed 60%)
+}
+.img4{
+    width: 120px;
+    border-radius: 22px;
+    background: linear-gradient(to bottom right, #FEFF99 25%, #E1C905 60%)
+}
+

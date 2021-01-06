@@ -1,0 +1,49 @@
+#FooterWrapper{
+    margin-top: 50px;
+    background-color: #3a3d4e;
+}
+
+#FooterDetails{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #3a3d4e; */
+    color: white;
+    
+    margin-left: 25px;
+    /* margin-bottom: 2px; */
+    /* margin-right: 2px; */
+}
+
+#Upper{
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy-Medium;
+    font-weight: 100 !important;
+}
+#MiddleInside{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-family: Gilroy-Bold;
+    /* font-size: 1vw; */
+    font-weight:900;
+
+}
+
+#Lower{
+    height: 40px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Gilroy-Medium;
+    border-top: 1px solid #fff;
+
+}
+
+
+

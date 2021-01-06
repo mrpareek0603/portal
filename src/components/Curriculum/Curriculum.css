@@ -1,0 +1,45 @@
+/* #CurriculumContainer{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* #CurriculumWrap{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+} */
+
+#CurriculumHeading{
+    margin-bottom:10px;
+    color:#4B4F60;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
+}
+
+.CurriculumSubHeading{
+    color:#4B4F60;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
+}
+
+.curriculumBoxes{
+
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px grey;
+    width: 20%;
+    margin: 10px;
+}
+
+.curriculumBoxes:hover{
+    transform: scale(1.05);
+}
+
+#CurriculumBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    /* border: 2px solid white; */
+    box-shadow: 1px 1px 10px grey;
+    margin-right: 10px;
+    /* padding:10px; */
+}

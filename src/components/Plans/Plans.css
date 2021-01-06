@@ -1,0 +1,87 @@
+#PlanContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#PriceWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    
+}
+
+.PriceBox{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px grey;
+    width: 20vw;
+    /* height: min-content; */
+    margin: 10px;
+    
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+#Plan1{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+#JeeWrapper{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px grey;
+    width: auto;
+    margin: 10px;
+    background: linear-gradient(to bottom right, #f54848 20%, #f80707 80%);
+    color: white;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+
+#Plan2{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+#XIIWrapper{
+    border: 2px solid white;
+   box-shadow: 1px 1px 10px grey;
+   /* width: 20%; */
+   margin: 10px;
+   background: linear-gradient(to bottom right, #8db2e4 20%, #2462e9 80%);
+   color: white;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+#Plan3{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+#XWrapper{
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px grey;
+    /* width: 20%; */
+    margin: 10px;
+    background: linear-gradient(to bottom right, #ceda2a 20%, #0edf3b 80%);
+    color: white;
+    /* font-weight: 900; */
+    
+    /* font-size: large; */
+}

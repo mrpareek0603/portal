@@ -1,0 +1,45 @@
+.MentorName{
+
+    text-align: start;
+    margin: 10px 0 0 10px;
+
+}
+
+.MentorInfo{
+    margin: 10px ;
+    text-align: start;
+}
+
+
+
+
+
+
+
+/* ////////////////// */
+#Mentor1{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.Mentor1Image{
+    align-self: start !important;
+    margin: 10px 0 0 10px;
+    
+}
+
+
+#Mentor2{
+    background-color: rgb(39, 38, 2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
