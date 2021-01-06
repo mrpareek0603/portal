@@ -77,7 +77,7 @@ function Plans() {
                         </div>
                     </div>
 
-                    <div id="Plan3">
+                    {/* <div id="Plan3">
                         <div id="XWrapper">
                             <div id="XBoardContainer">
                                 <h4>CBSE X BOARD</h4>
@@ -106,7 +106,7 @@ function Plans() {
 
 
                         </div>
-                    </div>
+                    </div> */}
 
                     
                 </div>

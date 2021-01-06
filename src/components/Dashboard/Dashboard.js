@@ -40,48 +40,48 @@ function FeeStructure() {
                     <hr style={{backgroundColor:"#121760", width:"15rem", marginBottom:"30px",height:"2.5px"}}></hr>
                 </div>
 
-                <div id="4" className="planWrapper">
+                <div id="planWrapper" className="planWrapper">
 
-                    <Box id="planBox" style={{marginTop:"30px"}} boxShadow={3}>
+                    <Box id="planBox" /*style={{marginTop:"30px"}} */boxShadow={3}>
 
-                    <div >
-                        <div id="a" >
+                        <div id="plan1Wrapper" >
+                            <div id="plan1Container" >
 
-                            <div id="numberOfSubjects">
-                                <div className="numberOfSubjects">One Subject</div>
-                                <h6 style={{display:"flex",flexWrap:"wrap", justifyContent:"center"}}>MATH/CHEM/PHY</h6>
+                                <div id="numberOfSubjects">
+                                    <div className="numberOfSubjects">One Subject</div>
+                                    <h6 style={{display:"flex",flexWrap:"wrap", justifyContent:"center"}}>MATH/CHEM/PHY</h6>
+                                </div>
+
+                                <div id="price">
+                                    <h4>12,000/-</h4> 
+                                </div>
+
+                                <div className="content">
+                                    <h6>Topic-wise videos</h6>
+                                    <h6>Topic wise Assessments</h6>
+                                    <h6>Doubt Resolution Support</h6>
+                                    <h6>Revision test will be
+                                    held on each sunday.</h6>
+                                    <h6>Cumulative test on every 15 days</h6>
+                                    <h6>Complete Topic Analysis</h6>
+                                </div>
+
+
+                                <div >
+                                    <Button id="payButton">
+                                        Subscribe
+                                    </Button>
+                                </div>
+
                             </div>
-
-                            <div id="price">
-                                <h4>12,000/-</h4> 
-                            </div>
-
-                            <div className="content">
-                                <h6>Topic-wise videos</h6>
-                                <h6>Topic wise Assessments</h6>
-                                <h6>Doubt Resolution Support</h6>
-                                <h6>Revision test will be
-                                held on each sunday.</h6>
-                                <h6>Cumulative test on every 15 days</h6>
-                                <h6>Complete Topic Analysis</h6>
-                            </div>
-
-
-                            <div >
-                                <Button id="payButton">
-                                    Subscribe
-                                </Button>
-                            </div>
-
                         </div>
-                    </div>
 
                     </Box>
 
                     <Box id="planBox" boxShadow={3}>
 
-                    <div >
-                        <div id="a" style={{width: "30vw",marginTop:"10px",height:"80vh"}}>
+                    <div id="plan1Wrapper">
+                        <div id="plan2Container" /*style={{width: "30vw",marginTop:"10px"}}*/>
 
                             <div id="numberOfSubjects">
                                 <div  className="numberOfSubjects" >Three Subjects</div>
@@ -114,40 +114,40 @@ function FeeStructure() {
                     </div>
                     </Box>
 
-                    <Box id="planBox" style={{marginTop:"30px"}} boxShadow={3}>
+                    <Box id="planBox" /*style={{marginTop:"30"}}*/ boxShadow={3}>
 
-                    <div >
-                        <div id="a">
+                        <div id="plan3Wrapper">
+                            <div id="plan3Container">
 
-                            
-                            <div id="numberOfSubjects">
-                                <div className="numberOfSubjects">Two</div>
-                                <h6 >MATH+PHY/ MATH+CHEM/ CHEM+PHY</h6>
-                            </div>
-                            
-                            <div id="price">
-                                <h4>20,000/-</h4>
-                            </div>
-                            
-                            <div className="content">
-                                <h6>Topic-wise videos</h6>
-                                <h6>Topic wise Assessments</h6>
-                                <h6>Doubt Resolution Support</h6>
-                                <h6>Revision test will be
-                                held on each sunday.</h6>
-                                <h6>Cumulative test on every 15 days</h6>
-                                <h6>Complete Topic Analysis</h6>
-                            </div>
+                                
+                                <div id="numberOfSubjects">
+                                    <div className="numberOfSubjects">Two</div>
+                                    <h6 >MATH+PHY/ MATH+CHEM/ CHEM+PHY</h6>
+                                </div>
+                                
+                                <div id="price">
+                                    <h4>20,000/-</h4>
+                                </div>
+                                
+                                <div className="content">
+                                    <h6>Topic-wise videos</h6>
+                                    <h6>Topic wise Assessments</h6>
+                                    <h6>Doubt Resolution Support</h6>
+                                    <h6>Revision test will be
+                                    held on each sunday.</h6>
+                                    <h6>Cumulative test on every 15 days</h6>
+                                    <h6>Complete Topic Analysis</h6>
+                                </div>
 
-                            <div >
-                                <Button id="payButton" style={{marginBottom:"10%"}}>
-                                    Subscribe
-                                </Button>
+                                <div >
+                                    <Button id="payButton" style={{marginBottom:"10%"}}>
+                                        Subscribe
+                                    </Button>
+                                    
+                                </div>
                                 
                             </div>
-                            
                         </div>
-                    </div>
                     </Box>
 
                 </div>
