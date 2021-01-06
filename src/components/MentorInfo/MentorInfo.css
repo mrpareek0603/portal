@@ -10,6 +10,11 @@
     text-align: start;
 }
 
+.Mentor1Image{
+    /* border: 2px solid white; */
+    /* border-radius: 20px; */
+    height: 50%;
+}
 
 
 
@@ -18,13 +23,17 @@
 
 /* ////////////////// */
 #Mentor1{
-    background-color: darkblue;
-    color: white;
+    background-color: rgb(255, 255, 253);
+    /* color: white; */
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
     align-items: center;
     margin: 10px;
+    box-shadow: 1px 1px 10px grey;
+    color:#4B4F60;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
 }
 
 .Mentor1Image{
@@ -35,11 +44,16 @@
 
 
 #Mentor2{
-    background-color: rgb(39, 38, 2);
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(199, 199, 193); */
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
     align-items: center;
     margin: 10px;
+    box-shadow: 1px 1px 10px grey;
+    color:#4B4F60;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
 }
