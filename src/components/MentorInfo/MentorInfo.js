@@ -31,7 +31,7 @@ function MentorInfo() {
                                 <br></br>
                                 <br></br>
                             He has in-depth knowledge of Mathematics. Many of his students are in IIT Delhi, IIT Bombay, IIT Madras, IIT Kanpur and in India's top Engineering institutes.
-                            </p>
+                            </p> 
                         </div>
                     
                     </div>
