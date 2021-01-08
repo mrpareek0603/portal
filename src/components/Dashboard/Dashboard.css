@@ -49,19 +49,21 @@
 #payButton{
 
     border: 2px solid #e0e0e0;
+    background-color: #1F1B94;
+    color: white;
     border-radius: 67px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right !important;
-    align-items: center !important;
+    /* text-align: right !important; */
+    /* align-items: center !important; */
     /* width: 19vw; */
     /* margin: 20px; */
 }
 
 #payButton:hover{
     
-    background-color: #1F1B94;
-    color: white;
-    transform: scale(1.2);
+    /* background-color: #1F1B94; */
+    /* color: white; */
+    /* transform: scale(1.2); */
 }
 
 #price{

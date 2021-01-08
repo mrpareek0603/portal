@@ -18,8 +18,8 @@ function MentorInfo() {
                     <div id="Mentor1">
                         
                         {/* mentor pic */}
-                        <div id="Mentor1Image" /*className="Mentor1Image"*/>
-                            <img className="MentorImage" width="100px" src="./logo.png" ></img>
+                        <div id="Mentor1Image" className="Mentor1Image">
+                            <img className="MentorImage" width="100px" src="./Pradeep Kumar.jpeg" ></img>
                         </div>
                         {/* mentor description */}
                         <div id="Mentor1Name&Info">

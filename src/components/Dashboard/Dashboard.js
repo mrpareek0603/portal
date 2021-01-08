@@ -53,7 +53,7 @@ function FeeStructure() {
                                 </div>
 
                                 <div id="price">
-                                    <h4>12,000/-</h4> 
+                                    <h4>10,000/-</h4> 
                                 </div>
 
                                 <div className="content">
@@ -68,7 +68,7 @@ function FeeStructure() {
 
 
                                 <div >
-                                    <Button id="payButton">
+                                    <Button id="payButton" style={{marginBottom:"10px"}}>
                                         Subscribe
                                     </Button>
                                 </div>
@@ -91,7 +91,7 @@ function FeeStructure() {
                             </div>
 
                             <div id="price">
-                                <h3 >30,000/-</h3>
+                                <h3 >27,000/-</h3>
                             </div>
 
                             <div className="content">
@@ -105,7 +105,7 @@ function FeeStructure() {
                             </div>
 
                             <div >
-                                <Button style={{backgroundColor:"#1F1B94",color:"white"}}id="payButton">
+                                <Button style={{backgroundColor:"#1F1B94",color:"white", marginBottom: "10px"}}id="payButton">
                                     Subscribe
                                 </Button>
                             </div>
@@ -126,7 +126,7 @@ function FeeStructure() {
                                 </div>
                                 
                                 <div id="price">
-                                    <h4>20,000/-</h4>
+                                    <h4>18,000/-</h4>
                                 </div>
                                 
                                 <div className="content">
@@ -140,7 +140,7 @@ function FeeStructure() {
                                 </div>
 
                                 <div >
-                                    <Button id="payButton" style={{marginBottom:"10%"}}>
+                                    <Button id="payButton" style={{marginBottom:"10px"}}>
                                         Subscribe
                                     </Button>
                                     
