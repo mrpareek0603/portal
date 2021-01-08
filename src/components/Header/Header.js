@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from '@material-ui/core';
-import { Link,useHistory} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import Box from '@material-ui/core/Box';
 
 // import logo from '../'

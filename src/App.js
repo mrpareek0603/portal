@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
 
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
@@ -8,7 +8,7 @@ import Curriculum from './components/Curriculum/Curriculum';
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import Plans from './components/Plans/Plans';
-import FeeStructure from './components/FeeStructure/FeeStructure';
+// import FeeStructure from './components/FeeStructure/FeeStructure';
 import Dashboard from './components/Dashboard/Dashboard';
 import Protected from './components/ProtectedDash/ProtectedDash';
 import Footer from './components/Footer/Footer';

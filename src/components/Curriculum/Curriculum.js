@@ -1,6 +1,6 @@
 import React from 'react';
 import './Curriculum.css';
-import Box from '@material-ui/core/Box';
+// import Box from '@material-ui/core/Box';
 function Curriculum() {
     return (
         <div id="CurriculumWrapper">

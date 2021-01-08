@@ -19,7 +19,7 @@ function MentorInfo() {
                         
                         {/* mentor pic */}
                         <div id="Mentor1Image" className="Mentor1Image">
-                            <img className="MentorImage" width="100px" src="./Pradeep Kumar.jpeg" ></img>
+                            <img className="MentorImage" width="100px" src="./Pradeep Kumar.jpeg" alt="" ></img>
                         </div>
                         {/* mentor description */}
                         <div id="Mentor1Name&Info">
@@ -40,7 +40,7 @@ function MentorInfo() {
                     <div id="Mentor2">
                         
                     <div id="Mentor2Image" className="Mentor1Image">
-                            <img className="Mentor1Image" width="100px" src="./Sohan Chaudhary.jpeg" ></img>
+                            <img className="Mentor1Image" width="100px" src="./Sohan Chaudhary.jpeg"alt=""></img>
                         </div>
                         {/* mentor description */}
                         <div id="Mentor1Name&Info">

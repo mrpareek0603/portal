@@ -26,7 +26,7 @@ function Intro() {
                 </div>
 
                 {/* image div */}
-                <div style={{marginTop:"10px",width:"100%"}}><img  width="60%" height="100%"src="/introImage.png"/></div>
+                <div style={{marginTop:"10px",width:"100%"}}><img  width="60%" height="100%"src="/introImage.png" alt="" /></div>
 
             </div>
         </div>
